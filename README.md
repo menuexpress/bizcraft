@@ -4,6 +4,9 @@
 hugo server --disableFastRender -D
 ```
 
+http://localhost:1313/
+
+
 # home.pl config subdomena `nowa`
 - CNAME
 Nazwa kanoniczna `nowa.menuexpress.pl.`  
