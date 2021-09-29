@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 #baseURL = "https://menuexpress.pl/"
 baseURL = "/"
-title = "BizCraft - Responsive Html5 Template"
+title = "Menuexpress"
 theme = "bizcraft-hugo"
 # post pagination
 paginate = "3"
