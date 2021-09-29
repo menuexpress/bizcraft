@@ -17,7 +17,7 @@
   {{ $styles := resources.Get "scss/style.scss" | toCSS | resources.Fingerprint "sha512"}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
 
-  {{ $preset3 := resources.Get "presets/preset3.css" }}
+  {{ $preset3 := resources.Get "presets/preset1.css" }}
 	<link id="style-switch" href="{{ $preset3.Permalink }}" media="screen" rel="stylesheet" type="text/css">
 
   {{ "<!--Favicon-->" | safeHTML }}
