@@ -1,48 +1,48 @@
 ############################### Services #############################
 services:
-  title : "Service We Provide"
-  subtitle : "A Quality Experience Team with 4 years experience"
-  title_icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  title : "Usługi"
+  subtitle : "Jakość potwierdzona 10 letnim doświadczeniem"
+  title_icon : "fa-handshake-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
   service_item:
     # service item loop
-    - name : "Web Design"
-      icon : "fa-tachometer" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "zaopatrzenie sklepów"
+      icon : "fa-shopping-basket" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "Apps Development"
-      icon : "fa-android" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "kąciki słodkości"
+      icon : "fa-birthday-cake" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "eCommerce Websites"
-      icon : "fa-shopping-cart" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "bufety na ciepło"
+      icon : "fa-fire" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "Design for Startups"
-      icon : "fa-lightbulb-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "bufety na zimno"
+      icon : "fa-snowflake-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "Web Design"
-      icon : "fa-tachometer" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "drink bary"
+      icon : "fa-glass" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "Apps Development"
-      icon : "fa-android" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "uroczystości domowe"
+      icon : "fa-home" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "eCommerce Websites"
-      icon : "fa-shopping-cart" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "wesela"
+      icon : "fa-child" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
       
     # service item loop
-    - name : "Design for Startups"
-      icon : "fa-lightbulb-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "High Life narwhal, banh mi PBR single-origin coffee Odd Future actually aliqua polaroid befor"
+    - name : "obsługa kelnerska"
+      icon : "fa-sign-language" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
 
 
 ############################### testimonial ####################################

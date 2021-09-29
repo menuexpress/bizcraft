@@ -72,7 +72,7 @@
 
     <div class="row">
       {{ range $index,$elements:= .service_item }}
-      {{ if lt $index 4}}
+      {{ if lt $index 99}}
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".{{mul $index 2}}s">
         <div class="service-content text-center">
           <span class="service-icon icon-pentagon"><i class="fa {{ .icon }}"></i></span>
