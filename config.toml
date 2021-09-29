@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 #baseURL = "https://menuexpress.pl/"
 baseURL = "/"
-title = "Menuexpress"
+title = "Menu Express"
 theme = "bizcraft-hugo"
 # post pagination
 paginate = "3"
@@ -307,7 +307,7 @@ link = "#"
 languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
-weight = 1
+weight = 2
 # footer content
 footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
 # copyright
@@ -318,7 +318,7 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 languageName = "Fr"
 languageCode = "fr-fr"
 contentDir = "content/french"
-weight = 2
+weight = 3
 home = "Accueil"
 # footer content
 footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
@@ -330,9 +330,9 @@ copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By 
 languageName = "Pl"
 languageCode = "pl-pl"
 contentDir = "content/polish"
-weight = 2
+weight = 1
 home = "Home"
 # footer content
 footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
 # copyright
-copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Menu Express"
