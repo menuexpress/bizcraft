@@ -1,8 +1,13 @@
 # local start
 
+`snap install hugo --channel=extended`
+
 ```
 hugo server --disableFastRender -D
 ```
+
+http://localhost:1313/
+
 
 # home.pl config subdomena `nowa`
 - CNAME
