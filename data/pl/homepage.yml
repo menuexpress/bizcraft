@@ -18,7 +18,7 @@ slider:
         # button loop
         - label : "dowiedz się więcej"
           style : "white"
-          link : "#services"
+          link : "#service"
           
         # button loop
         # - label : "Learn More"
@@ -44,7 +44,7 @@ slider:
           link : "#contact"
 
     ############### Slider item loop
-    - title : "Catering dla szkół"
+    - title : "Catering szkolny"
       subtitle : "przedszkola | żłobki | szkoły"
       bg_image : "images/slider/sandwiches.jpg"
       #image : "images/slider/bg-thumb2.png"
