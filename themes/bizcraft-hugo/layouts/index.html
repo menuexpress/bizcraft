@@ -193,12 +193,6 @@
 <!--/ Pricing table end -->
 
 
-<!-- Testimonial start-->
-{{ if $data.homepage.testimonial.enable }}
-{{ partial "testimonial.html" . }}
-{{ end }}
-<!--/ Testimonial end-->
-
 
 <!-- Clients start -->
 {{ if $data.homepage.clients_logo_slider.enable }}
@@ -222,6 +216,12 @@
 {{ end }}
 {{ end }}
 <!--/ Clients end -->
+
+<!-- Testimonial start-->
+{{ if $data.homepage.testimonial.enable }}
+{{ partial "testimonial.html" . }}
+{{ end }}
+<!--/ Testimonial end-->
 
 
 
