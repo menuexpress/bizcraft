@@ -3,7 +3,7 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Need To Invent The Future!"
+    - title : "Develop test !"
       subtitle : "We Making Difference To Great Things Possible"
       bg_image : "images/slider/bg1.jpg"
       image : ""
