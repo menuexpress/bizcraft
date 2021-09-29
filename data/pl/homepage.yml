@@ -164,7 +164,7 @@ about:
   enable : true
   title : "Know More About Our Company"
   subtitle : "Why Choose Us"
-  bg_image : "images/image-block-bg.jpg"
+  bg_image : "images/deserki.jpg"
   content : "Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
             Proin gravida nibh vel velit auctor Aenean sollicitudin, adipisicing elit sed lorem quis bibendum auctor."
   about_item:
@@ -194,7 +194,8 @@ call_to_action:
   enable : true
   title : "Are You Ready to Buy This Template!"
   subtitle : "Just Click Button and Use Your Own"
-  bg_image : "images/parallax/parallax1.jpg"
+  #bg_image : "images/parallax/parallax1.jpg"
+  bg_image : "images/butelki.jpg"
   buttons:
     # button loop
     - label : "Purchase Now"
@@ -209,7 +210,7 @@ call_to_action:
 
 ############################### pricing ####################################
 pricing:
-  enable : true
+  enable : false
   # pricing content comes from "data/*/pricing.yml" file
 
 
