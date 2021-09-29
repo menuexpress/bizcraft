@@ -1,5 +1,7 @@
 # local start
 
+`snap install hugo --channel=extended`
+
 ```
 hugo server --disableFastRender -D
 ```
