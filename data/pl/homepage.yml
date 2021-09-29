@@ -3,68 +3,69 @@ slider:
   enable : true
   slider_item:
     ################# Slider item loop
-    - title : "Polski test !"
-      subtitle : "We Making Difference To Great Things Possible"
-      bg_image : "images/slider/bg1.jpg"
+    - title : "Catering konferencyjny"
+      subtitle : "Przerwy kawowe i smaczne posiłki"
+      bg_image : "images/slider/chunks.jpg"
       image : ""
       image_position : "false"
       # slider navigator
       navigator:
-        label : "Invent"
-        icon : "fa-bicycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+        label : "imprezy"
+        icon : "fa-coffee" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
 
       # slider buttons
       buttons:
         # button loop
-        - label : "Start Now"
+        - label : "dowiedz się więcej"
           style : "white"
-          link : "#"
+          link : "#services"
           
         # button loop
-        - label : "Learn More"
-          style : "solid"
-          link : "#"
+        # - label : "Learn More"
+        #   style : "solid"
+        #   link : "#services"
 
     ############### Slider item loop
-    - title : "How Big Can You Dream?"
-      subtitle : "We Making Difference To Great Things Possible"
-      bg_image : "images/slider/bg2.jpg"
-      image : "images/slider/bg-thumb1.png"
-      image_position : "left"
+    - title : "Zaopatrzenie sklepów"
+      subtitle : "codzienny dowóz świeżego asortymentu"
+      bg_image : "images/slider/vegetables.jpg"
+      # image : "images/slider/bg-thumb1.png"
+      image_position : "false"
       # slider navigator
       navigator:
-        label : "Dream"
-        icon : "fa-hotel" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+        label : "firmy"
+        icon : "fa-credit-card-alt" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
 
       # slider buttons
       buttons:
         # button loop
-        - label : "Take a Tour"
+        - label : "Skontaktuj się"
           style : "solid"
-          link : "#"
+          link : "#contact"
 
     ############### Slider item loop
-    - title : "Your Challenge is Our Progress"
-      subtitle : "We Making Difference To Great Things Possible"
-      bg_image : "images/slider/bg2.jpg"
-      image : "images/slider/bg-thumb2.png"
-      image_position : "right"
+    - title : "Catering dla szkół"
+      subtitle : "przedszkola | żłobki | szkoły"
+      bg_image : "images/slider/sandwiches.jpg"
+      #image : "images/slider/bg-thumb2.png"
+      #image_position : "right"
+      image_position : "false"
       # slider navigator
       navigator:
-        label : "Tech"
-        icon : "fa-android" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+        label : "szkoły"
+        icon : "fa-graduation-cap" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
 
       # slider buttons
       buttons:
         # button loop
-        - label : "Start Now"
+        - label : "poznajmy się"
           style : "white"
-          link : "#"
+          link : "#about"
           
         # button loop
-        - label : "Learn More"
-          style : "solid"
-          link : "#"
+        # - label : "Learn More"
+        #   style : "solid"
+        #   link : "#"
 
 
 ############################### Service ####################################
