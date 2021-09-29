@@ -12,6 +12,9 @@ googleAnalytics = "" # example : UA-123-45
 # disqus short name
 disqusShortname = "#" # get your shortname form here : https://disqus.com
 
+defaultContentLanguage = 'pl'
+disableLanguages = ['fr', 'en']
+
 
 ############################# Outputs ##############################
 [outputs]
@@ -176,6 +179,58 @@ name = "Contact"
 URL = "contact"
 weight = 6
 
+############################## Polish navigation ###############################
+
+[[Languages.pl.menu.main]]
+name = "About"
+URL = "about"
+weight = 2
+
+[[Languages.pl.menu.main]]
+name = "Portfolio"
+URL = "portfolio"
+weight = 3
+
+[[Languages.pl.menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 4
+
+[[Languages.pl.menu.main]]
+weight = 5
+name = "Pages"
+hasChildren = true
+
+  [[Languages.pl.menu.main]]
+  parent = "Pages"
+  name = "Career"
+  URL = "career"
+
+  [[Languages.pl.menu.main]]
+  parent = "Pages"
+  name = "Service"
+  URL = "service"
+
+  [[Languages.pl.menu.main]]
+  parent = "Pages"
+  name = "Team"
+  URL = "team"
+
+  [[Languages.pl.menu.main]]
+  parent = "Pages"
+  name = "FAQ"
+  URL = "faq"
+
+  [[Languages.pl.menu.main]]
+  parent = "Pages"
+  name = "Pricing"
+  URL = "pricing"
+  
+[[Languages.pl.menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 6
+
 
 #################### default parameters ################################
 [params]
@@ -265,6 +320,18 @@ languageCode = "fr-fr"
 contentDir = "content/french"
 weight = 2
 home = "Accueil"
+# footer content
+footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
+# copyright
+copyright = "Designed By [Themefisher](https://themefisher.com/) & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
+################################### Polish language #####################################
+[Languages.pl]
+languageName = "Pl"
+languageCode = "pl-pl"
+contentDir = "content/polish"
+weight = 2
+home = "Home"
 # footer content
 footer_content = "We are a awward winning multinational company. We believe in quality and standard worldwide."
 # copyright
