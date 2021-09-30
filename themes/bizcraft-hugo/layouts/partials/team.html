@@ -22,6 +22,8 @@
           <div class="team-content">
             <h3>{{ .name | markdownify }}</h3>
             <p>{{ .designation | markdownify }}</p>
+            <p>{{ .phone | markdownify }}</p>
+            <p>{{ .email | markdownify }}</p>
             <div class="team-social">
               {{ range .social }}
               <a class="{{ .name }}" href="{{ .link | safeURL }}"><i class="fa {{.icon}}"></i></a>
