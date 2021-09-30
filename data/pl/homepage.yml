@@ -196,9 +196,9 @@ call_to_action:
   bg_image : "images/butelki.jpg"
   buttons:
     # button loop
-    - label : "Skontaktuj się"
+    - label : "zaufali nam"
       style : "white"
-      link : "#contact"
+      link : "#clients"
       
     # button loop
     # - label : "Get In Touch"

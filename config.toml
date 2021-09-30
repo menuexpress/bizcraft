@@ -240,9 +240,9 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-phone = "+211234565523"
-email = "info@bexer.com"
+address = "Poznańska 327a, 05-850 Ołtarzew "
+phone = "+48 500 151 027"
+email = "biuro@menuexpress.pl"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
 # copyright
