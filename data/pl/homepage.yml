@@ -88,75 +88,74 @@ funfact:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "Clients"
+    - name : "najedzonych klientów"
       icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       count : "1200"
       
     # funfact item loop
-    - name : "Item Sold"
+    - name : "zrealizowanych imprez"
       icon : "fa-institution" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1277"
+      count : "55"
       
     # funfact item loop
-    - name : "Projects"
+    - name : "kierowców"
       icon : "fa-suitcase" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "857"
+      count : "34"
       
     # funfact item loop
-    - name : "Awwards"
+    - name : "lat na rynku"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "78"
+      count : "4"
 
+    - name : "nieprzespanych nocy"
+      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "69"
+
+    - name : "wypite kawy"
+      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "324"
+
+    - name : "produktów w ofercie"
+      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "3467"
+
+    - name : "stałych klientów"
+      icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      count : "30"
   
 ############################### feature ##################################
 feature:
   enable : true
   feature_item:
     # feature item loop
-    - name : "Clean &amp; Modern Design"
+    - name : "dbamy o najmłodszych"
       icon : "fa-heart-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
       
     # feature item loop
-    - name : "Useful Shortcodes"
+    - name : "jesteśmy eco"
       icon : "fa-codepen" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
       
     # feature item loop
-    - name : "Parallax Section"
+    - name : "dojeżdżamy do klienta"
       icon : "fa-film" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
       
     # feature item loop
-    - name : "Multipurpose Concept"
+    - name : "zawsze świeże produkty"
       icon : "fa-newspaper-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
       
     # feature item loop
-    - name : "Responsive Layout"
+    - name : "dopasowana oferta"
       icon : "fa-desktop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
       
     # feature item loop
-    - name : "Light wight Performance"
+    - name : "własny sprzęt"
       icon : "fa-pagelines" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
       content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Free Lifetime Updates"
-      icon : "fa-recycle" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "Endless Possibilites"
-      icon : "fa-diamond" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "24/7 Live Support"
-      icon : "fa-whatsapp" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-
 
   
 ############################### about ##################################
