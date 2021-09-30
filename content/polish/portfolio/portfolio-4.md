@@ -1,14 +1,15 @@
 ---
-title: "Prego Match"
+title: "Nestle"
 date: 2020-05-12T12:14:34+06:00
+expirydate: 2020-05-13T12:14:34+06:00
 # page header background image
 page_header_bg: "images/banner/banner1.jpg"
 images: 
-  - "images/portfolio/portfolio4.jpg"
+  - "images/dostawcy/nestle.jpg"
 # clients
 clients : "BizCraft Incorporatin Ltd."
 # filter types
-types: ["web design", "wordpress"]
+types: ["development", "joomla"]
 # used skills
 skills: ["HTML5","css3","jQuery","Ruby & Rails"]
 # porjects link

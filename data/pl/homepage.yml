@@ -77,9 +77,9 @@ service:
 ############################### portfolio ##################################
 portfolio:
   enable : true
-  title : "Our Awesome Work"
-  subtitle : "We Making Difference To Great Things Possible"
-  title_icon : "fa-suitcase"
+  title : "Dostawcy"
+  subtitle : "Nasi zaufani i sprawdzeni dostawcy produktów najwyższej jakości"
+  title_icon : "fa-cart-plus"
   # portfolio items comes from "content/*/portfolio" folder
 
   

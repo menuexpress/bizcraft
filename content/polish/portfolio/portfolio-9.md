@@ -1,10 +1,11 @@
 ---
-title: "Pinguin"
+title: "Sante"
 date: 2020-05-12T12:14:34+06:00
+#expirydate: 2020-05-13T12:14:34+06:00
 # page header background image
 page_header_bg: "images/banner/banner1.jpg"
 images: 
-  - "images/dostawcy/pinguin.jpg"
+  - "images/dostawcy/sante.png"
 # clients
 clients : "BizCraft Incorporatin Ltd."
 # filter types
@@ -16,7 +17,7 @@ project_link : "#"
 # meta description
 description: "This is meta description."
 # save as draft
-draft: false
+draft: true
 ---
 
 Oat cake oat cake dessert brownie. Gummies tiramisu tart jujubes jelly beans macaroon danish pie muffin. Soufflé pudding brownie pudding fruitcake marshmallow.
