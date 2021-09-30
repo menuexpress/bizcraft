@@ -17,19 +17,19 @@
   translation: Continue Reading
 
 - id: name
-  translation: Name
+  translation: Imię i nazwisko
 
 - id: email
   translation: Email
 
 - id: subject
-  translation: Subject
+  translation: Temat
 
 - id: message
-  translation: Message
+  translation: Wiadomość
 
 - id: send_message
-  translation: Send Message
+  translation: wyślij wiadomość
 
 - id: contact_details
-  translation: Contact Details
+  translation: Dane firmy

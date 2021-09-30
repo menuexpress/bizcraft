@@ -12,7 +12,7 @@
     {{ end }}
 
     <!--Isotope filter start -->
-    <div class="row text-right">
+    <!-- <div class="row text-right">
       <div class="col-12">
         <div class="isotope-nav" data-isotope-nav="isotope">
           <ul>
@@ -29,7 +29,8 @@
           </ul>
         </div>
       </div>
-    </div><!-- Isotope filter end -->
+    </div> -->
+    <!-- Isotope filter end -->
   </div>
 
   <div class="container-fluid">
@@ -43,10 +44,10 @@
             {{ end }}
             <figcaption>
               <h3>{{ .Title | markdownify }}</h3>
-              <a class="link icon-pentagon" href="{{ .RelPermalink }}"><i class="fa fa-link"></i></a>
+              <!-- <a class="link icon-pentagon" href="{{ .RelPermalink }}"><i class="fa fa-link"></i></a> -->
               {{ range first 1 .Params.images }}
-              <a class="view icon-pentagon" data-rel="prettyPhoto" href="{{ . | absURL }}"><i
-                  class="fa fa-search"></i></a>
+              <!-- <a class="view icon-pentagon" data-rel="prettyPhoto" href="{{ . | absURL }}"><i
+                  class="fa fa-search"></i></a> -->
               {{ end }}
             </figcaption>
           </figure>

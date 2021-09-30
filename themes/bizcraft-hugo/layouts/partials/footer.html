@@ -1,61 +1,74 @@
-<!-- Footer start -->
-<footer id="footer" class="footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-sm-12 footer-widget">
-				<h3 class="widget-title">{{i18n `recent_post`}}</h3>
-        {{ range first 3 ( where .Site.RegularPages "Section" "blog" )}}
-				<div class="latest-post-items media mb-3">
-					<div class="latest-post-content media-body">
-						<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-						<p class="post-meta">
-							<span class="author">Posted by <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author | title }}</a></span>
-							<span class="post-meta-cats">in&nbsp;{{ range $index, $elements:= .Params.Categories }}<a
-								href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}"> {{ if ne $index 0 }}, {{ end }}
-								{{ . | title }}</a> {{ end}}</span>
-						</p>
-					</div>
-				</div><!-- Latest Post end -->
-				{{ end }}
-			</div>
-			<!--/ End Recent Posts-->
 
-
-			<div class="col-md-4 col-sm-12 footer-widget">
-				<h3 class="widget-title">{{i18n `flickr_photos`}}</h3>
-
-				<div class="img-gallery">
-					<div class="img-container">
-						{{ range .Site.Params.flickr_photos}}
-						<a class="thumb-holder" data-rel="prettyPhoto" href="{{ .image | absURL }}">
-							<img src="{{ .image | absURL }}" alt="">
-						</a>
-						{{ end }}
-					</div>
+<section id="main-container">
+	<div class="container" id="contact">
+	  <!-- Map start here -->
+	  <!-- {{ if .Site.Params.map.enable }}
+	  {{ with .Site.Params.map }}
+	  <div class="map" id="map" data-latitude="{{ .map_latitude }}"
+		data-longitude="{{ .map_longitude }}" data-marker="{{ .map_marker | absURL }}"
+		data-marker-name="{{ $.Site.Title }}">
+	  </div>
+  
+	  <div class="gap-40"></div>
+	  {{ end }}
+	  {{ end }} -->
+	  <!--/ Map end here -->
+	  <div>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19558.2692078425!2d20.751142!3d52.210979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47194ae26755f8dd%3A0x1ca31f8a9e2f0a7!2sPozna%C5%84ska%20327A%2C%2005-850%20O%C5%82tarzew%2C%20Polska!5e0!3m2!1spl!2sus!4v1633037066349!5m2!1spl!2sus" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	  </div>
+  
+	  <div class="row">
+		<div class="col-md-7">
+		  <form id="contact-form" action="{{ .Site.Params.contact_form_action }}" method="post" role="form">
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="form-group">
+				  <label>{{i18n `name`}}</label>
+				  <input class="form-control" name="name" id="name" placeholder="" type="text" required>
 				</div>
-			</div>
-			<!--/ end flickr -->
-
-			<div class="col-md-3 col-sm-12 footer-widget footer-about-us">
-				<h3 class="widget-title">{{i18n `about_us`}}</h3>
-				<p>{{ .Site.Params.footer_content | markdownify }}</p>
-				<h4>Address</h4>
-				<p>{{ .Site.Params.address | markdownify }}</p>
-				<div class="mb-4">
-					<h4>Email:</h4>
-					<p>{{ .Site.Params.email | markdownify }}</p>
+			  </div>
+			  <div class="col-md-4">
+				<div class="form-group">
+				  <label>{{i18n `email`}}</label>
+				  <input class="form-control" name="email" id="email" placeholder="" type="email" required>
 				</div>
-				<div class="mb-4">
-					<h4>Phone No.</h4>
-					<p>{{ .Site.Params.phone | markdownify }}</p>
+			  </div>
+			  <div class="col-md-4">
+				<div class="form-group">
+				  <label>{{i18n `subject`}}</label>
+				  <input class="form-control" name="subject" id="subject" placeholder="" required>
 				</div>
+			  </div>
 			</div>
-			<!--/ end about us -->
-		</div><!-- Row end -->
-	</div><!-- Container end -->
-</footer><!-- Footer end -->
-
-
+			<div class="form-group">
+			  <label>{{i18n `message`}}</label>
+			  <textarea class="form-control" name="message" id="message" placeholder="" rows="10" required></textarea>
+			</div>
+			<div class="text-right"><br>
+			  <button class="btn btn-primary solid blank" type="submit">{{i18n `send_message`}}</button>
+			</div>
+		  </form>
+		</div>
+		<div class="col-md-5">
+		  <div class="contact-info">
+			<h3>{{i18n `contact_details`}}</h3>
+			<p>{{ .Content }}</p>
+			<br>
+			<p> Menu Express Sp. z o.o. </p>
+			<p> Spółka Komandytowa </p>
+			<p> NIP 524-277-52-27 </p>
+			<p> Regon  360614714 </p>
+			<p> KRS 0000538296 </p>
+			<p> mBank 09 1140 2004 0000 3602 7729 8366 </p>
+			<!-- <p><i class="fa fa-home info"></i> {{ .Site.Params.address | markdownify }} </p>
+			<p><i class="fa fa-phone info"></i> {{ .Site.Params.phone | markdownify }} </p>
+			<p><i class="fa fa-envelope-o info"></i> {{ .Site.Params.email | markdownify }}</p> -->
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!--/ container end -->
+  </section>
 <!-- Copyright start -->
 <section id="copyright" class="copyright angle">
 	<div class="container">
