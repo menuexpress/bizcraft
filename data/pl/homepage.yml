@@ -124,38 +124,39 @@ funfact:
       count : "30"
   
 ############################### feature ##################################
+# zalety
 feature:
   enable : true
   feature_item:
     # feature item loop
-    - name : "dbamy o najmłodszych"
-      icon : "fa-heart-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "jesteśmy eco"
-      icon : "fa-codepen" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "dojeżdżamy do klienta"
-      icon : "fa-film" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
-      
-    # feature item loop
-    - name : "zawsze świeże produkty"
+    - name : "Szeroka gama produktów"
       icon : "fa-newspaper-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+      content : "Produkty mrożone, produkty dostosowane do szerokiej gamy klientów, od najniższych cen do produktów najbardziej renomowanych"
       
     # feature item loop
-    - name : "dopasowana oferta"
-      icon : "fa-desktop" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+    - name : "Specjalistyczne samochody"
+      icon : "fa-car" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Pojazdy dostosowane do przewozu produktów mrożonych, oraz chłodzonych"
       
     # feature item loop
-    - name : "własny sprzęt"
-      icon : "fa-pagelines" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Bras urna felis accumsan at ultrde cesid posuere masa socis nautoque penat"
+    - name : "Jakościowi dostawcy"
+      icon : "fa-check-square-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Dystrybucja najlepszych jakościowo towarów bezpośrednio od producentów"
+      
+    # feature item loop
+    - name : "Terminowe dostawy"
+      icon : "fa-calendar-check-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : "Dostawy zawsze na czas wskazany przez klienta"
+      
+    # feature item loop
+    - name : "Wdrożony system HACCAP"
+      icon : "fa-cogs" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : ""
+      
+    # feature item loop
+    - name : "Długi czas na rynku "
+      icon : "fa-clock-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+      content : ""
 
   
 ############################### about ##################################
