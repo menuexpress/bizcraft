@@ -75,7 +75,7 @@
       {{ if lt $index 99}}
       <div class="col-md-3 col-sm-3 wow fadeInDown" data-wow-delay=".{{mul $index 2}}s">
         <div class="service-content text-center">
-          <span class="service-icon icon-pentagon"><i class="fa {{ .icon }}"></i></span>
+          <span class="service-icon icon-pentagon"><img src="https://img.icons8.com/windows/48/000000/{{ .icon }}.png"/></span>
           <h3>{{ .name | markdownify }}</h3>
           <p>{{ .content | markdownify }}</p>
         </div>

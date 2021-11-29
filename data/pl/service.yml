@@ -1,48 +1,49 @@
 ############################### Services #############################
 services:
   title : "Usługi"
-  subtitle : "Jakość potwierdzona 10 letnim doświadczeniem"
+  subtitle : "Hurtownia oferuje dostawy"
   title_icon : "fa-handshake-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
+  # icon from -> see index.html 78 line <img src="https://img.icons8.com/material-outlined/48/000000/{{ .icon }}.png"/>
   service_item:
     # service item loop
-    - name : "zaopatrzenie sklepów"
-      icon : "fa-shopping-basket" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Kasze, ryże, makarony"
+      icon : "carbohydrates"
+      content : ""
       
     # service item loop
-    - name : "kąciki słodkości"
-      icon : "fa-birthday-cake" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Nabiał"
+      icon : "cheese"
+      content : ""
       
     # service item loop
-    - name : "bufety na ciepło"
-      icon : "fa-fire" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Ryby świeże"
+      icon : "fish-food"
+      content : ""
       
     # service item loop
-    - name : "bufety na zimno"
-      icon : "fa-snowflake-o" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Grzyby mrożone"
+      icon : "mushroom"
+      content : ""
       
     # service item loop
-    - name : "drink bary"
-      icon : "fa-glass" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Owoce morza"
+      icon : "prawn"
+      content : ""
       
     # service item loop
-    - name : "uroczystości domowe"
-      icon : "fa-home" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Ryby mrożone"
+      icon : "sugar-cubes"
+      content : ""
       
     # service item loop
-    - name : "wesela"
-      icon : "fa-child" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Przyprawy, bakalie"
+      icon : "spice"
+      content : ""
       
     # service item loop
-    - name : "obsługa kelnerska"
-      icon : "fa-sign-language" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      content : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's"
+    - name : "Warzywa mrożone"
+      icon : "carrot"
+      content : ""
 
 
 ############################### testimonial ####################################
