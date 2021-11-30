@@ -215,7 +215,7 @@ pricing:
 
 ############################### testimonial ####################################
 testimonial:
-  enable : true
+  enable : false
   #bg_image : "images/parallax/parallax2.jpg"
   bg_image : "images/malinki.jpg"
   testimonial_item:
