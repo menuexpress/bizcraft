@@ -5,7 +5,7 @@ slider:
     ################# Slider item loop
     - title : "Catering konferencyjny"
       subtitle : "Przerwy kawowe i smaczne posiłki"
-      bg_image : "images/slider/chunks.jpg"
+      bg_image : "images/slider/czerwonaporzeczkamrozona.png"
       image : ""
       image_position : "false"
       # slider navigator
@@ -28,7 +28,7 @@ slider:
     ############### Slider item loop
     - title : "Zaopatrzenie sklepów"
       subtitle : "codzienny dowóz świeżego asortymentu"
-      bg_image : "images/slider/vegetables.jpg"
+      bg_image : "images/slider/mrozonaczarnajagoda.png"
       # image : "images/slider/bg-thumb1.png"
       image_position : "false"
       # slider navigator
@@ -46,7 +46,7 @@ slider:
     ############### Slider item loop
     - title : "Catering szkolny"
       subtitle : "przedszkola | żłobki | szkoły"
-      bg_image : "images/slider/sandwiches.jpg"
+      bg_image : "images/slider/mrozonyagrest.png"
       #image : "images/slider/bg-thumb2.png"
       #image_position : "right"
       image_position : "false"
@@ -194,7 +194,7 @@ call_to_action:
   title : "Stale rozwijamy branże"
   subtitle : "Bierzemy udział w wielu inicjatywach. Wdrażamy strategie, poprzez innowacje i wzmacnianie możliwości współpracy z wieloma firmami."
   #bg_image : "images/parallax/parallax1.jpg"
-  bg_image : "images/butelki.jpg"
+  bg_image : "images/mrozonasliwka.png"
   buttons:
     # button loop
     - label : "zaufali nam"
