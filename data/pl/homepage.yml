@@ -88,9 +88,9 @@ funfact:
   enable : true
   funfact_item:
     # funfact item loop
-    - name : "najedzonych klientów"
+    - name : "zadowolonych klientów"
       icon : "fa-user" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "1200"
+      count : "250"
       
     # funfact item loop
     - name : "zrealizowanych imprez"
@@ -105,7 +105,7 @@ funfact:
     # funfact item loop
     - name : "lat na rynku"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "4"
+      count : "13"
 
     - name : "nieprzespanych nocy"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
@@ -113,11 +113,11 @@ funfact:
 
     - name : "wypite kawy"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "324"
+      count : "10000"
 
     - name : "produktów w ofercie"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
-      count : "3467"
+      count : "3000"
 
     - name : "stałych klientów"
       icon : "fa-trophy" # fontawesome icon pack 4.7 | https://fontawesome.com/v4.7.0/icons/
