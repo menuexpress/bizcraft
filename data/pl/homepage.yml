@@ -161,7 +161,7 @@ feature:
   
 ############################### about ##################################
 about:
-  enable : true
+  enable : false
   title : "Poznaj nas bliżej"
   subtitle : "Jesteśmy dla Ciebie"
   bg_image : "images/deserki.jpg"
